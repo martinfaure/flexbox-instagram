@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #ffb763;
+}
+
+.header {
+	position: absolute;
+	width: 690px;
+	height: 66px;
+	left: 375px;
+	top: 168px;
+	background: #ffffff;
+	border-radius: 12px 12px 0px 0px;
+}
+
+.name {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	padding: 25px;
+	width: 85px;
+	height: 21px;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 16px;
+	color: #000000;
+}
+
+.profile {
+	position: relative;
+	display: flex;
+}
+
+.photo {
+	position: absolute;
+	width: 690px;
+	height: 451px;
+	left: 375px;
+	top: 234px;
+}
